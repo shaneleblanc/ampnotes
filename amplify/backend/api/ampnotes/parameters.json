@@ -1,0 +1,15 @@
+{
+    "AppSyncApiName": "ampnotes",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito02618837",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://ampnotes-20181215193835-deployment/amplify-appsync-files/schema.graphql.1544932906776",
+    "ElasticSearchStreamingLambdaCodeS3Key": "amplify-appsync-files/python_streaming_function.zip",
+    "ElasticSearchStreamingLambdaCodeS3Bucket": "ampnotes-20181215193835-deployment",
+    "ResolverBucket": "ampnotes-20181215193835-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1544932906776"
+}
